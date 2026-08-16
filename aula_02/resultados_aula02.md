@@ -34,6 +34,22 @@ Acurácia do Modelo: 33.33%
 # 2 - Como o modelo de Árvore de Decisão (DecisionTreeClassifier) toma a decisão de separar as intenções do usuário? R= cria divisões para separar as inteções
 # 3 - Qual é o risco de utilizar uma Árvore de Decisão sem limite de profundidade (max_depth) em datasets de texto maiores? R= porque ela iria criar multiplas  divisões muitas sem necessidade, deixando o modelo completo podendo gerar overfitting
 
+--- RESULTADOS DO LAB 04 ---
+Acurácia no conjunto de teste: 66.67%
+
+PREVISÕES PARA FRASES INÉDITAS
+----------------------------------------
+Frase: Me vê um bilhete pra São Paulo
+Intenção prevista: cancelar_reserva
+
+Frase: Não vou mais viajar
+Intenção prevista: cancelar_reserva
+
+Frase: Quero falar com o gerente
+Intenção prevista: falar_atendente
+
+JUSTIFICATIVA TÉCNICA - A primeira frase inédita ele errou, por falta de mais palavras no Dataset. A palavra "Bilhete" não aparece nos dados de treinos, e como usamos CountVectorizer o modelo não reconhece automaticamente a sua intenção, que seria Bilhete => Comprar_Passagem.
+
 
 
 

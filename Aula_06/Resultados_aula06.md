@@ -10,4 +10,19 @@ Resultados modelos do professor:
 
 
 
+Lab 02 resultado com np.max:
+
+<img width="1908" height="807" alt="image" src="https://github.com/user-attachments/assets/c6772af9-1033-473d-8ab5-5c713ca8bf94" />
+
+Lab 03 resultados alteração da LIMIAR_CONFIANCA 65% e na alteração da mensagem de status: 
+
+<img width="1866" height="896" alt="image" src="https://github.com/user-attachments/assets/47b263b3-92a5-4a1c-bc16-ac00b356ec56" />
+
+Lab 04 resultados criado uma nova intenção cancelar_contrato: 
+
+<img width="1886" height="776" alt="image" src="https://github.com/user-attachments/assets/b7e2c65a-7492-49e8-9fab-b2f881918fac" />
+
+adicionei um exemplo novo para cancelar_contrato:
+
+<img width="1893" height="800" alt="image" src="https://github.com/user-attachments/assets/80f0f510-4fb8-4bab-b915-566ec4b196c2" />
 

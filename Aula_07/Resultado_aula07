@@ -1,1 +1,32 @@
+Exc1: Responda: Qual a diferença entre Stemming e Lematização? Por que a Lematização garante que a palavra exista no dicionário e o Stemming não? 
+R= Stemming reduz as palavras cortando partes no final, a lematização analisa a palavra e transforma em sua base correta
+
+Responda: O que aconteceria de errado no sistema de um banco se o limiar de confiança (Threshold) fosse configurado em apenas 20% (0.20)?
+R= Ele executaria mesmo sem ter certeza sobre a intenção do cliente
+
+Responda: Qual a lógica conceitual do TF-IDF para atribuir peso baixo a palavras muito comuns e peso alto a palavras raras num banco de dados?
+R= Ela da menos importância para palavras que aparecem muito nos textos, agora para palavras raras ele da mais enfâse.
+
+Responda: Em detecção de fraudes, o que representa um Falso Positivo e um Falso Negativo? Qual dos dois gera prejuízo financeiro direto à empresa?
+R= Quando o sistema identifica uma compra como fraude mais ela é legitima, o falso negativo acontece quando o sistema não identifica uma fraude que aconteceu.
+
+Responda: Na arquitetura de NLU, qual a diferença conceitual entre Intenção (Intent) e Entidade (Slot)?
+R= Intenção representa o que o usuário deseja fazer, como comprar algo. Slot representa as informações necessárias para realizar uma ação.
+
+Responda: Por que um modelo baseado puramente em TF-IDF não consegue entender sinônimos, enquanto o Word Embeddings consegue?
+R= O TF-IDF representa as palavras com base na frequência delas nos textos, mas não entende diretamente o significado ou a relação entre palavras.
+Word Embeddings representa as palavras em vetores.
+
+Responda: O que são Stopwords e por que sua remoção é importante no pré-processamento?
+R= Stopwords são palavras muito comuns que geralmente possuem pouca importância para identificar o significado de um texto.
+
+Responda: O Recall foca em evitar Falsos Positivos ou Falsos Negativos? Por que ter um 
+Recall alto é vital na área de saúde ou segurança?
+R= Ele foca em evitar falsos negativos, é importante na saúde e na segurança.
+
+Responda: O que caracteriza o Stemming em termos de processamento e por que ele é mais rápido do que a Lematização?
+R= é um processo mecânico que reduz as palavras cortando em partes.
+
+Responda: Diante de uma intenção ambígua que aciona o Fallback, qual mensagem o chatbot deve exibir ao usuário e qual o objetivo dessa resposta?
+R= o fallback pode informar que não entendeu oque o usuário falou, e chama o suporte ou pedir pra que ele explique novamente. 
 
